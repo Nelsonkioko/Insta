@@ -9,6 +9,8 @@ from django.views.generic import (
     DeleteView
 )
 from .models import Post
+from .forms import CommentForm
+from django.shortcuts import redirect
 
 
 def home(request):
@@ -23,9 +25,6 @@ class PostListView(ListView):
     template_name = 'Insta/home.html'  # <app>/<model>_<viewtype>.html
     context_object_name = 'posts'
     ordering = ['-date_posted']
-
-
-
 
 
 class UserPostListView(ListView):
@@ -80,3 +79,17 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
 def about(request):
     return render(request, 'Insta/about.html', {'title': 'About'})
+
+
+def add_comment_to_post(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    if request.method == "POST":
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.post = post
+            comment.save()
+            return redirect('post_detail', pk=post.pk)
+    else:
+        form = CommentForm()
+    return render(request, 'Insta/add_comment_to_post.html', {'form': form})
