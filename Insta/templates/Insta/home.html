@@ -2,17 +2,21 @@
 {% block content %}
     {% for post in posts %}
 
-        <article class="media content-section"  style="background: inherit;margin-left: 7em;margin-right: 7em">
+        <div class="card mb-3"  style="width: 40rem; background: inherit;margin-left: 200px;">
+            <div class="card-title"">
             <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
-            <div class="media-body" style="background: inherit;">
-                <div class="article-metadata">
-                    <a class="mr-2" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
-                    <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
-                </div>
-                <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2>
-                <img src="{{ post.content.url }}" alt="" style="width: 40%; height: 40%;">
+                <a class=""  style="color: #ffff; href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
+                    <small class="" style="color: #ffff">{{ post.date_posted|date:"F d, Y" }}</small>
             </div>
-        </article>
+                <div class="card-body">
+                    <h4><a class="" style="color: #ffff" href="{% url 'post-detail' post.id %}">{{ post.location }}</a></h4>
+                </div>
+
+
+
+                <a class="" href="{% url 'post-detail' post.id %}"><img class="card-img-bottom" src="{{ post.content.url }}" alt="" ></a>
+
+        </div>
     {% endfor %}
 
 
