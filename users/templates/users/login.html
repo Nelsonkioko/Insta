@@ -1,7 +1,7 @@
 {% extends "Insta/base2.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-    <div class="content-section" style="float: right; width: 50%;background: inherit;    background: inherit;
+    <div class="content-section" style=" border-right:1px; border-left:1px;float: right; width: 50%;background: inherit;    background: inherit;
 
     filter: blendTrans(2px);">
 
@@ -19,7 +19,7 @@
             </div>
         </form>
         <div class="border-top pt-3">
-            <small class="text-muted">
+            <small class="small">
                 Need An Account? <a class="ml-2" href="{% url 'register' %}">Sign Up Now</a>
             </small>
         </div>
@@ -27,4 +27,13 @@
 
 
     </div>
+    <style>
+    a  {
+        color: white;
+    }
+    .small {
+        color: hotpink;
+    }
+
+    </style>
 {% endblock content %}
