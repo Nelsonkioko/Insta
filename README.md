@@ -1,6 +1,5 @@
 # Photo Gallery
-
-This is a site that allows users to view photos according to location.
+This is a replica of Instagram that allows users to post photos,like and comment.
 
 ## Author name
 
@@ -50,10 +49,10 @@ Django 2.2.1
 
 | Behavior        | Result |
 | ------------- |:----:|
-| user loads the page | all favorite images are displayed |
-| user clicks on an image that interests him/her | the image is enlarged in a modal and its Description is shown |
-| user clicks on the copy link button | the image url is copied and an alert is displayed |
-| user searches for an image category or location | user is re-directed to the searched term with relevant images displayed |
+| user loads the page | images from different users are displayed |
+| user clicks on an image or comment section | the image is rendered on it's own with all the comments | 
+| user clicks on profile | the profile page is displayed and posts images related to the user|
+| user searches for an image | user is re-directed to the searched term with relevant images displayed |
 
 
 
