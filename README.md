@@ -1,4 +1,4 @@
-# Photo Gallery
+# Instagram - 001
 This is a replica of Instagram that allows users to post photos,like and comment.
 
 ## Author name

@@ -34,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="190">
-                <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+              <first_editor>
+                <caret column="17" selection-start-column="17" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -375,7 +375,7 @@
       <workItem from="1558506675694" duration="25947000" />
       <workItem from="1558563051560" duration="4095000" />
       <workItem from="1558567400442" duration="5597000" />
-      <workItem from="1558594034132" duration="2865000" />
+      <workItem from="1558594034132" duration="3779000" />
     </task>
     <task id="LOCAL-00001" summary="create files and install dependencies">
       <created>1558186793093</created>
@@ -388,7 +388,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69558000" />
+    <option name="totallyTimeSpent" value="70472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1307" height="743" extended-state="6" />
@@ -661,8 +661,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="190">
-            <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+          <first_editor>
+            <caret column="17" selection-start-column="17" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
