@@ -37,8 +37,8 @@
     <div class="card" style="background: inherit;">
 
         <div class="card-title">
-            <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
-            <a class="" style="color: #ffff;" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
+            <img class="rounded-circle article-img" src="{{user.profile.image.url }}">
+            <a class="" style="color: #ffff;" href="{% url 'user-posts' user.username %}">{{ comment.user|capfirst }}</a>
             <small class="" style="color: #ffff">{{ post.date_posted|date:"F d, Y" }}</small>
         </div>
         <p style="color: #ffff" >{{ comment.text|linebreaks }}</p>

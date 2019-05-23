@@ -25,7 +25,7 @@
                 </div>
                 <h1><a href="{% url 'post-detail' pk=post.pk %}">{{ post.title }}</a></h1>
                 <p style="color: #ffff;margin: 20px 0px 20px 20px;">{{ post.text|linebreaksbr }}</p>
-                <a href="{% url 'post-detail' pk=post.pk %}">Comments: {{ post.comments.count }}</a>
+                <a href="{% url 'post-detail' pk=post.pk %}"><i class="fa fa-wechat" style="font-size:48px;color:white;"></i> {{ post.comments.count }}  <i class='fas fa-heart' style='font-size:48px;color:white'></i></a>
             </div>
         <hr>
         <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>

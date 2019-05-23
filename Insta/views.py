@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
+from users.models import Profile
 from django.views.generic import (
     ListView,
     DetailView,
@@ -88,6 +89,7 @@ def add_comment_to_post(request, pk):
         if form.is_valid():
             comment = form.save(commit=False)
             comment.post = post
+            comment.user = request.user
             comment.save()
             return redirect('post-detail', pk=post.pk)
     else:
