@@ -1,6 +1,10 @@
 {% extends "Insta/base.html" %}
 {% block content %}
-    <article class="media content-section" style="background: inherit;width:50%">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card" style="height: 100%;">
+             <div class="card-body">
+                 <article class="card-title" style="background: inherit; height:100%";>
         <img class="rounded-circle article-img" src="{{ object.author.profile.image.url }}">
         <div class="media-body">
             <div class="article-metadata">
@@ -15,11 +19,20 @@
                 {% endif %}
             </div>
             <h2 class="article-title">{{ object.title }}</h2>
-                <img src="{{ object.content.url }}" alt="" width="50%
+
+             </div>
+
+                <img class="card-img-bottom" src="{{ object.content.url }}" alt="" width="100%">
+                 </article>
         </div>
-    </article>
-    <hr>
-    <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
+
+        </div>
+            </div>
+
+
+     <div class="col-md-6">
+       <hr>
+
 {% for comment in post.comments.all %}
     <div class="card" style="background: inherit;">
 
@@ -33,6 +46,13 @@
 {% empty %}
     <p style="color: #ffff">No comments here yet :(</p>
 {% endfor %}
+ <a class="btn btn-success" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
+    </div>
+
+        </div>
+
+
+
     <style>
     a  {
   color: #ffff;
@@ -40,6 +60,9 @@
     p  {
   color: #ffff;
 }
+    .card  {
+        background: inherit;
+    }
     </style>
 {% endblock content %}
 
