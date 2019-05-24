@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2deb1b10-8e0e-49d7-860b-fac7084fcb66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Insta/templates/Insta/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Insta/templates/Insta/user_posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram_01/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram_01/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Insta/templates/Insta/post_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="114" selection-start-line="40" selection-start-column="114" selection-end-line="40" selection-end-column="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Insta/templates/Insta/base2.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,6 +31,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="138">
+                <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -60,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Insta/templates/Insta/user_posts.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -76,7 +81,16 @@
         <entry file="file://$PROJECT_DIR$/Instagram_01/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-end-line="28" />
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -95,18 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
               <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Insta/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,16 +146,17 @@
         <option value="$PROJECT_DIR$/Insta/forms.py" />
         <option value="$PROJECT_DIR$/Insta/templates/Insta/add_comment_to_post.html" />
         <option value="$PROJECT_DIR$/users/templates/users/login.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Insta/templates/Insta/home.html" />
         <option value="$PROJECT_DIR$/Insta/models.py" />
         <option value="$PROJECT_DIR$/Insta/views.py" />
         <option value="$PROJECT_DIR$/Insta/templates/Insta/post_detail.html" />
-        <option value="$PROJECT_DIR$/Instagram_01/settings.py" />
         <option value="$PROJECT_DIR$/Insta/templates/Insta/base2.html" />
         <option value="$PROJECT_DIR$/Insta/templates/Insta/base.html" />
         <option value="$PROJECT_DIR$/Insta/tests.py" />
         <option value="$PROJECT_DIR$/Insta/templates/Insta/user_posts.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Instagram_01/settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -180,42 +183,11 @@
             <path>
               <item name="Instagram_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="Instagram_01" type="462c0819:PsiDirectoryNode" />
-              <item name="Insta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Instagram_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Instagram_01" type="462c0819:PsiDirectoryNode" />
-              <item name="Insta" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Instagram_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Instagram_01" type="462c0819:PsiDirectoryNode" />
-              <item name="Insta" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Insta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Instagram_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Instagram_01" type="462c0819:PsiDirectoryNode" />
               <item name="Instagram_01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Instagram_01" type="b2602c69:ProjectViewProjectNode" />
               <item name="Instagram_01" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Instagram_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Instagram_01" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Instagram_01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Instagram_01" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -341,7 +313,7 @@
       <workItem from="1558563051560" duration="4095000" />
       <workItem from="1558567400442" duration="5597000" />
       <workItem from="1558594034132" duration="3779000" />
-      <workItem from="1558602147518" duration="11708000" />
+      <workItem from="1558602147518" duration="12415000" />
     </task>
     <task id="LOCAL-00001" summary="create files and install dependencies">
       <created>1558186793093</created>
@@ -354,7 +326,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82275000" />
+    <option name="totallyTimeSpent" value="82982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1307" height="743" extended-state="6" />
@@ -489,16 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="17" selection-start-column="17" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Insta/templates/Insta/post_confirm_delete.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -601,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram_01/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Insta/templates/Insta/base2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -636,6 +591,30 @@
           <folding>
             <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram_01/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
